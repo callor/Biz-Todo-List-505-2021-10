@@ -1,0 +1,31 @@
+div.login_form {
+  margin: 20px auto;
+  padding: 20px;
+}
+
+div.login_form input {
+  width: 60%;
+  height: 40px;
+  margin: 0 0 8px;
+  padding: 5px 39px 5px 11px;
+  border: 1px solid #dadada;
+  background-color: #fff;
+}
+
+div.login_form button {
+  font-size: 20px;
+  font-weight: 700;
+
+  display: block;
+  width: 60%;
+  height: 49px;
+  line-height: 49px;
+
+  margin: 16px auto;
+  cursor: pointer;
+
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  background-color: #03c75a;
+}

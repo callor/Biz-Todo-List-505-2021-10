@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+}
+
+.form input {
+  flex: 1;
+  font-size: 1.25rem;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+.btn_insert {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  padding: 0.5rem 1rem;
+
+  padding-top: 0.5rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+
+  margin-left: 1rem;
+
+  background-color: #22b8cf;
+  border-radius: 3px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn_insert:hover {
+  background-color: #3bc9db;
+}

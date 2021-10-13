@@ -1,0 +1,37 @@
+#myGoogleBtn {
+  display: inline-block;
+  background-color: white;
+  color: #444;
+  width: 190px;
+  border-radius: 5px;
+  border: thin solid #888;
+  box-shadow: 1px 1px 1px grey;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+#myGooleBtn:hover {
+  background-color: #ddd;
+}
+
+span.icon {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  vertical-align: middle;
+
+  background: url("../images//google.png") transparent 5px 50% no-repeat;
+
+  background-size: 120%;
+  background-position: center;
+}
+
+span.buttonText {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 0;
+  padding-right: 42px;
+  font-size: 1em;
+  font-weight: bold;
+  color: blue;
+}

@@ -1,0 +1,11 @@
+{
+  "web": {
+    "client_id": "71709386283-j70dgf0es5rsao99d5ouhk03jot8fihg.apps.googleusercontent.com",
+    "project_id": "lucky-coast-328806",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_secret": "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",
+    "javascript_origins": ["http://localhost:3000"]
+  }
+}

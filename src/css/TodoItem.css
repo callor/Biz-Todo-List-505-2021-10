@@ -1,0 +1,41 @@
+.todo_item {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.2s;
+  user-select: none;
+}
+
+.todo_item:hover {
+  background-color: #ddd;
+}
+
+.todo_delete {
+  margin: 1rem;
+  color: #e64980;
+  font-weight: 600;
+  opacity: 0; /* 평소에는 안보이게 */
+}
+
+/* todo item에 마우스가 hover되면 delete 버튼이 보이게 */
+.todo_item:hover .todo_delete {
+  opacity: 1;
+}
+
+.todo_text {
+  flex: 1;
+  word-break: break-all;
+}
+
+.checked {
+  text-decoration-line: line-through;
+  color: #adb5bd;
+}
+.check_mark {
+  font-size: 1.5rem;
+  line-height: 1rem;
+  margin-left: 1rem;
+  color: #3bc9db;
+  font-weight: 800;
+}
